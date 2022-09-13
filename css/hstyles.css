@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: boerder-box;
+}
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: rgb(255, 255, 255);
+    --clr-dark: #222323;
+    --clr-accent: #dfa137;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1.5rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25)
+          0.125em 0.125em 0.25em rgba(0,0,0,.25);
+}
+
+section {
+    padding: 3.5em 4em;
+}
+
+img {
+    display:block;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+h1,
+h2,
+h3 {
+    line-height:2;
+    margin: 0;
+}
+
+h1 {font-size: var(--fs-h1)}
+h2 {font-size: var(--fs-h2)}
+h3 {font-size: var(--fs-h3)}
+
+body {
+    background: var(--clr-light);
+    color: var(--clr-l);
+    margin: 0;
+    margin-bottom: 100px;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height:1;
+}
+
+.intro {
+    text-align: center;
+    background-color: var(--clr-accent);
+}
+
+.section__title--content {
+    text-align: center;
+    position: relative;
+}
+
+.section__subtitle--content {
+    text-align: center;
+    position: relative;
+}
+
+.content__img {
+    margin-left: 1fr;
+    position: absolute;
+}
+.section__body--content {
+    text-indent: 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: 18em;
+    margin-right: 14em;
+    line-height: 2em;
+    
+}
+

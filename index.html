@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Harris Pyo Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e23d271786.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#qualifications" class="nav__link">Qualifications</a></li>
+                    <li class="nav__item"><a href="#aboutme" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-------------------------  INTRO  ----------------------------->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Welcome! I am <strong>Harris Pyo</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Computer/Software Engineer</p>
+            <img src="images/20210620_151044.jpg" alt="profile picture" class="intro__img">
+        </section>
+
+        <!--------------------------- Qualifications ---------------------------->
+        <section class="my-services" id="qualifications">
+            <h2 class="section__title section__title--aboutme">Qualifications</h2>
+            <div class="aboutme">
+                <div class="catagory">
+                    <h3>Seeking</h3>
+                    <p> A software engineering/deveopment internship to gain experience and to learn new skills while 
+                        working with others in a team environment. 
+                    </p>
+                </div>
+
+                <div class="catagory">
+                    <h3>Qualities</h3>
+                    <p>Driven, astute, flexible, and able to work well with others.</p>
+                </div>
+
+                <div class="catagory">
+                    <h3>Skills</h3>
+                    <p>
+                        Java, C++, HTML, Arduino, and more!
+                    </p>
+                </div>
+
+            </div>
+            <a href="https://drive.google.com/file/d/1wjLtCGASYlNIUx_DaO4gtKjBHy5ihFQe/view?usp=sharing" target="_blank" class="btn">Resume</a>
+        </section> 
+
+        <!--------------------------- About me ---------------------------->
+        <section class="about-me" id="aboutme">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about">Undergraduate at Stevens Institute of Technology</p>
+            
+            <div class="about-me__body">
+                <p>I am currently in my second year at Stevens Institute of Technology studying computer engineering
+                    with strong interests in software development from an early age after having spent 
+                    time around computers. I intend to persue these interests and hope to contribute to this field in the near future.
+                </p>
+                <p>
+                    I am actively involved in my school and its student organizations. 
+                    Some of my hobbies include volleyball, reading, coding, anime, and gaming!
+                </p>
+            </div>
+            
+            <img src="images/20210620_151044.jpg" alt="Profile pic" class="about-me__img">
+         </section>
+
+        <!--------------------------- My Projects --------------------->
+        <section class="my-projects" id="project">
+            <h2 class="section__title section__title--projects">Projects</h2>
+            <p class="section__subtitle section__subtitle--projects"></p>
+
+            <div class="portfolio">
+                <!-- project1-->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <div class="project-1">
+                        <p>Midterm Project</p>
+                    </div>
+                    <img src="images/3 app project.JPG" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- project2-->
+                 <a href="tictactoe.html" target="_blank" class="portfolio__item">
+                    <div class="project-2">
+                        <p>Tic-Tac-Toe</p>
+                    </div>
+                    <img src="images/Tic Tac Toe.JPG" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- project3-->
+                 <a href="hoboken.html" target="_blank" class="portfolio__item">
+                    <div class="project-3">
+                        <p>Places in Hoboken</p>
+                    </div>
+                    <img src="images/hoboken-places.JPG" alt="" class="portfolio__img" class="aboutme__img">
+                </a>
+            </div>
+        </section>
+
+        <!------------------- footer ---------------->
+        <footer class="footer">
+            <a href="mailto:hpyo@stevens.edu" class="footer__link">hpyo@stevens.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/h-pyo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/harris-pyo-672b1b21a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
